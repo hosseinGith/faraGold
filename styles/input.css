@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @font-face {
+        font-family: 'vazirFont';
+        src: url('../assets/fonts/Vazir.ttf') format('truetype'),
+            url('../assets/fonts/Vazir.eot') format('eot'),
+            url('../assets/fonts/Vazir.woff') format('woff'),
+            url('../assets/fonts/Vazir.woff2') format('woff2'),
+            url('../assets/fonts/Vazir-Bold.ttf') format('truetype'),
+            url('../assets/fonts/Vazir-Bold.eot') format('eot'),
+            url('../assets/fonts/Vazir-Bold.woff') format('woff'),
+            url('../assets/fonts/Vazir-Bold.woff2') format('woff2');
+    }
+
+    body {
+        font-family: "vazirFont";
+    }
+}
